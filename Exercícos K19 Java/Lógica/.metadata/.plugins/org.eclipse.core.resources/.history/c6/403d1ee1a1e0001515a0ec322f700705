@@ -1,0 +1,12 @@
+
+public class Multiplos4 
+{
+
+	public static void main(String[] args) 
+	{
+		int cont = 0;
+		String multiplo = "PI";
+
+	}
+
+}

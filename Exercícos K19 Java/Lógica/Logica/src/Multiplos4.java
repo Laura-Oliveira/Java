@@ -1,0 +1,24 @@
+
+public class Multiplos4 
+{
+
+	public static void main(String[] args) 
+	{
+		int cont = 0;
+		String multiplo = "PI";
+		
+		for(cont = 0; cont <=100; cont++)
+		{
+			if(cont % 4 == 0)
+			{
+				System.out.println(multiplo);
+			}
+			else
+			{
+				System.out.println(cont);
+			}
+		}
+
+	}
+
+}
