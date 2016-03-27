@@ -1,4 +1,4 @@
-package agregação;
+package agregacao;
 
 public class TestClient 
 {

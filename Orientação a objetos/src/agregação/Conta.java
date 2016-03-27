@@ -1,4 +1,4 @@
-package agregação;
+package agregacao;
 
 public class Conta 
 {
@@ -9,5 +9,11 @@ public class Conta
 	//muitas contas possuem uma agencia
 		//enquanto que uma a agencia possuem apenas uma conta
 		//muitos -> um
+	
+	Conta(Agencia agencia)
+	{
+		this.agencia = agencia;
+	}
+	
 	
 }

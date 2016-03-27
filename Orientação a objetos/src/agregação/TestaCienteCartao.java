@@ -1,16 +1,16 @@
-package agregação;
+package agregacao;
 
 public class TestaCienteCartao 
 {
 
 	public static void main(String[] args) 
 	{
-		CartaoDeCredito cartao = new CartaoDeCredito();
+		CartaoDeCredito cartao = new CartaoDeCredito(11111);
 		Cliente clienteNovaReferencia = new Cliente();
 				
 		cartao.cliente = clienteNovaReferencia; //o objeto cartao acessa a referencia do objeto cliente
 								   //por meio da variavel cliente, e esta referencia
-								   //é colocada na variavel cliente1 (outro objeto)
+								   //ï¿½ colocada na variavel cliente1 (outro objeto)
 		//resumindo, eu pego a refenrencia de um objeto (objeto cliente), 
 		//e coloco essa referencia em outro objeto (cliente1)
 		//uma especie de ponteiro em Java

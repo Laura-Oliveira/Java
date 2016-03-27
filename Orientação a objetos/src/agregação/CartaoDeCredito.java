@@ -1,4 +1,4 @@
-package agregação;
+package agregacao;
 
 public class CartaoDeCredito 
 {
@@ -7,7 +7,12 @@ public class CartaoDeCredito
 	Cliente cliente;	
 	//classe em que no relacionamento esta do lado muitos, contera o objeto
 	//da classe em que no relacionamento esta do lado um
-	//agregaçao muitos -> um
+	//agregaï¿½ao muitos -> um
 	//explicacao:um cartao possui um cliente
 	//mas um cliente pode possuir varios cartoes de credito
+	
+	CartaoDeCredito(int number)
+	{
+		this.number = number;
+	}
 }

@@ -1,4 +1,4 @@
-package agregação;
+package agregacao;
 
 public class TesteContaAgencia 
 {
@@ -6,7 +6,7 @@ public class TesteContaAgencia
 	public static void main(String[] args) 
 	{
 		Agencia agenciaNovaReferencia = new Agencia();
-		Conta conta = new Conta();
+		Conta conta = new Conta(agenciaNovaReferencia);
 		
 		conta.agencia = agenciaNovaReferencia;
 	
